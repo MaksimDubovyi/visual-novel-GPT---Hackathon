@@ -1,0 +1,21 @@
+.PageContainer {
+    display: flex;
+    margin-top: 10%;
+}
+
+.itemPage {
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+/* Стилі для ширини екрану менше 768px */
+@media (max-width: 600px) {
+
+    .PageContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20%;
+    }
+
+
+}
